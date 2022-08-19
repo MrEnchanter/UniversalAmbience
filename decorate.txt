@@ -1,0 +1,9 @@
+Actor IA_Sound
+{
+	+NOGRAVITY
+	+FLOAT
+	States
+	{
+	}
+}
+

@@ -1,0 +1,4 @@
+gameinfo
+{
+  AddEventHandlers = "idleambiance_EventHandler"
+}

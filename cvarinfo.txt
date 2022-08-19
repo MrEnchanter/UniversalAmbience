@@ -1,0 +1,4 @@
+
+user float uniamb_fVol = 1.0;
+user int uniamb_pAreaMin = 4;
+//server float ddz_skymode = 1.0;

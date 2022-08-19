@@ -1,0 +1,30 @@
+AddOptionMenu "OptionsMenu" {
+	Submenu "Universal Ambience Settings", "Universal_Amb_Settings"
+}
+
+OptionMenu "Universal_Amb_Settings"
+{
+	Class "UniversalAmbience_OptionMenu"
+	Title "Universal Ambience"
+
+// slider: min, max, intervals, ???
+
+	StaticText "Map restart or transition required to take effect", "white"
+	StaticText ""
+
+	Slider "Multiply flats sound volume","uniamb_fVol", 0.0, 3.0, 0.1, 1
+	StaticText "Default 1.0", "white"
+	StaticText "Caution, not all sound volumes have been tested", "white"
+	StaticText ""
+
+	Slider "Minimum flat area for sound to play","uniamb_pAreaMin", 4, 64, 1, 1 
+	StaticText "Default 4.0", "white" // 0 can ear rape on stairs
+	StaticText "Lower can cause overlap, higher can cause silence", "white" // 0 can ear rape on stairs
+	StaticText ""
+
+	// v future plans
+	/*
+	Slider "Multiply items sound volume (Caution)","uniamb_iVol", 0.0, 3.0, 0.1, 1
+	StaticText "Default 1.0", "white"
+	*/
+}

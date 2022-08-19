@@ -1,0 +1,98 @@
+//==============================================================================
+// Ambient and Generator sounds
+//==============================================================================
+
+//Ambient sounds were taken S.T.A.L.K.E.R.: Shadow of Chernobyl, Half-Life 1 Senn_ Remaster & Half-Life 2.
+//Generator sounds come from Silent Hill 1 and Resident Evil 1.
+
+Darker/generator1	NSGENE01
+Darker/generator2	NSGENE02
+Darker/generator3	NSGENE03
+Darker/generator4	NSGENE04
+
+$Pitchshift Darker/generator1 0
+$Pitchshift Darker/generator2 0
+$Pitchshift Darker/generator3 0
+$Pitchshift Darker/generator4 0
+
+$Random darker/amb1 {DAR11 DAR12 DAR13 DAR14}
+$Random darker/amb2 {DAR21 DAR22 DAR23 DAR24}
+$Random darker/amb3 {DAR31 DAR32 DAR33 DAR34}
+$Random darker/amb4 {DAR41 DAR42 DAR43 DAR44}
+$Random darker/amb5 {DAR51 DAR52 DAR53 DAR54}
+$Random darker/amb6 {DAR61 DAR62 DAR63 DAR64}
+$Random darker/amb7 {DAR71 DAR72 DAR73 DAR74}
+$Random darker/amb8 {DAR81 DAR82 DAR83 DAR84}
+$Random darker/amb9 {DAR91 DAR92 DAR93 DAR94}
+$Random darker/amb0 {DAR01 DAR02 DAR03 DAR04}
+
+DAR11	NSDARK11
+DAR12	NSDARK12
+DAR13	NSDARK13
+DAR14	NSDARK14
+
+DAR21	NSDARK21
+DAR22	NSDARK22
+DAR23	NSDARK23
+DAR24	NSDARK24
+
+DAR31	NSDARK31
+DAR32	NSDARK32
+DAR33	NSDARK33
+DAR34	NSDARK34
+
+DAR41	NSDARK41
+DAR42	NSDARK42
+DAR43	NSDARK43
+DAR44	NSDARK44
+
+DAR51	NSDARK51
+DAR52	NSDARK52
+DAR53	NSDARK53
+DAR54	NSDARK54
+
+DAR61	NSDARK61
+DAR62	NSDARK62
+DAR63	NSDARK63
+DAR64	NSDARK64
+
+DAR71	NSDARK71
+DAR72	NSDARK72
+DAR73	NSDARK73
+DAR74	NSDARK74
+
+DAR81	NSDARK81
+DAR82	NSDARK82
+DAR83	NSDARK83
+DAR84	NSDARK84
+
+DAR91	NSDARK91
+DAR92	NSDARK92
+DAR93	NSDARK93
+DAR94	NSDARK94
+
+DAR01	NSDARK01
+DAR02	NSDARK02
+DAR03	NSDARK03
+DAR04	NSDARK04
+
+$Limit Darker/generator1	1
+$Limit Darker/generator2	1
+$Limit Darker/generator3	1
+$Limit Darker/generator4	1
+
+$Limit darker/amb1	1
+$Limit darker/amb2	1
+$Limit darker/amb3	1
+$Limit darker/amb4	1
+$Limit darker/amb5	1
+$Limit darker/amb6	1
+$Limit darker/amb7	1
+$Limit darker/amb8	1
+$Limit darker/amb9	1
+$Limit darker/amb0	1
+
+$Volume Darker/generator1	0.65
+$Volume Darker/generator2	0.65
+$Volume Darker/generator3	0.65
+$Volume Darker/generator4	0.65
